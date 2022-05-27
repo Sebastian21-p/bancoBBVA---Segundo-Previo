@@ -11,11 +11,11 @@ public class Conexion {
 	private static Conexion db;
 	private PreparedStatement preparedStatement;
 
-	private static final String url = "jdbc:mysql://localhost:3306/";
-	private static final String dbName = "bbva";
-	private static final String driver = "com.mysql.jdbc.Driver";
-	private static final String userName = "root";
-	private static final String password = "";
+	private static final String url = "fanny.db.elephantsql.com ";
+	private static final String dbName = "jnvgnqqv";
+	private static final String driver = "org.postgresql.Driver";
+	private static final String userName = "jnvgnqqv";
+	private static final String password = "aTo0Yykrx9nCmRavmYFsikv_usQtfOen";
 	
 	public Conexion() {
 		try {
